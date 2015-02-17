@@ -29,7 +29,7 @@ gulp.task('serve', function() {
   // Compile SASS
   gulp.watch('src/sass/**/*.scss', ['styles']);
 
-  // Compile JS
+    // Compile JS
   gulp.watch('src/js/**/*.js', ['scripts']);
 
   // Optimise images

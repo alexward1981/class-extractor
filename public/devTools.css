@@ -1,0 +1,16 @@
+.js-devBar {
+    position: relative;
+    background-color: black;
+    font-size: 14px;
+}
+
+.js-devBar li { 
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding:10px 20px;
+}
+
+.js-devBar li:hover {
+    background-color: #666;
+}
