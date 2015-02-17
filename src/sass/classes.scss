@@ -1,0 +1,38 @@
+/* This is where all global classes are held
+
+/* Common classes */
+.tac { text-align: center; }
+.clear { clear: both; }
+
+// Common overrides (use of !important is ok here)
+.hide { display: none !important; }
+.fl { float: left !important; }
+.fr { float: right !important; }
+.block { display: block; }
+
+// Grid
+.col {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.max-1 { width: 100%; }
+.max-2 { width: 49.9%; }
+.max-3 { width: 33% }
+.max-4 { width: 25%; }
+
+// Reusable elements
+.button {
+    /* defaults */
+    background-color: $primary;
+    color: $primary-con;
+    padding:0.5em 1em;
+    border-radius: 0.5em;
+    font-size: $baseFont;
+    font-weight: bold;
+    border:0;
+
+    &:hover,
+    &:focus { background-color:lighten($primary, 20%); }
+}

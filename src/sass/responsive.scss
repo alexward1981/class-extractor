@@ -1,0 +1,18 @@
+// Here is the responsive stylesheet.
+// I've set up three initial breakpoints but make sure to add
+// additional breakpoints at the point where the layout breaks!
+
+// Mobile breakpoints
+@media only screen  and (min-width : 450px) and (max-width: 767px) {
+    /* add styles */
+}
+
+// Tablet breakpoints
+@media only screen  and (min-width : 768px) and (max-width: 1223px) {
+    /* add styles */
+}
+
+// Desktop breakpoints
+@media only screen  and (min-width : 1224px) {
+    /* add styles */
+}

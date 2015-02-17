@@ -1,0 +1,24 @@
+// This file is to store your commonly used variables. I've included some common ones here for you.
+
+// Main site colours
+$primary: #d12531;
+$secondary: #abcdef;
+
+// Contrast colours are colours which stand out against the primary color. They all have a '-con' prefix
+$primary-con: #fff;
+$secondary-con: #000;
+
+// Text colours
+$bodyColor: #333;
+$linkColor: $primary;
+$linkHoverColor: lighten($linkColor, 20%);
+
+// Fonts
+$fontFamily: 'Lato', arial, sans-serif;
+$fontFamily2: 'Caudex', garamond, serif;
+
+// Size defaults
+$baseFont: 1.2em;
+$lineHeight: 1;
+
+

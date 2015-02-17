@@ -1,0 +1,60 @@
+// If you are using the strapforge bootstrap, then including this file is required.
+// Otherwise, you can just delete it and remove it from core.scss
+
+.no-js .warnings { position: static; }
+.warning { font-weight: bold; color: #000; }
+
+.for-print,
+.js .js-disabled { display: none; }
+
+a { color: $primary; }
+
+body {
+    font-family: $fontFamily;
+    color: $bodyColor;
+}
+
+header {
+    background-color: #424242;
+}
+
+nav {
+    padding: 1em; 
+    li { 
+        display: inline-block;
+        margin-right: 1em 
+    }
+}
+
+h1 { 
+    font-size: 3em;
+    color: $primary-con; 
+    padding: 1em 0.5em;
+}
+
+h2 { 
+    font-size: 2em; 
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+section { 
+    font-size: $baseFont;
+    padding:1em;
+}
+
+
+footer {
+    color: $primary-con;
+    padding: 1em;
+    font-size: $baseFont;
+    background-color: #424242;
+    overflow: hidden;
+
+    li { display: inline-block; }
+
+    a { color: $primary-con; 
+        &:hover { text-decoration: underline; }
+    }
+}
+
